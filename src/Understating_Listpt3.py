@@ -69,4 +69,4 @@ message = "hello python world"
 
 #Np olvidar los dos puntos - Syntax error 
 for magician in magicans
-    print(magician+)
+    print(magician)
