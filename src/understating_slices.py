@@ -29,3 +29,22 @@ print(players[10:1]) # = [] Lista  vacia
 ###
 print(players[:0]) # = [] Lista vacia
 
+#como hacer looping con slice 
+print("looping con slice")
+Students = ["Peter","Mercado","Aaron","Fatima","renata"]
+
+#slicing [::]
+for student in Students[3:5]:
+    print(f"El estudiante {student} va a pasar la materia")
+print(Students)
+
+#Como podemos copiar una lista 
+my_food = ["pizza","tacos","flautas"]
+my_friend_food = my_food #Manera erronea de copiar una lista 
+
+#Maneras correctas de copiar una lista
+my_friend_food2 = my_food[:] #Copia de la lista my_food
+
+my_friend_food3 = my_food.copy() #Copia de la lista my_food
+
+my_friend_food4 = list(my_food) #Copia de la lista my_food
