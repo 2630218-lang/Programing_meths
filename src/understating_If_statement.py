@@ -39,7 +39,13 @@ if answer != 42:
     print("Esa no es la respuesta correcta")
 
 age = 19
+# 19 es menor que 21 menor o igual que 21 y menor que 18
 #Simnolo menor que 
 print (age < 21) #true
 print (age <= 21) #true 
-print (age < 18) #fasle     
+print (age < 18) #false
+#mayor que 
+#19 es mayor o igual que 12,19 es mayor que 12
+print(age >=12) #true
+print(age >12) #True
+print(age > 20) #false
