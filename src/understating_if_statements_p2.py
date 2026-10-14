@@ -39,6 +39,7 @@ elif age>=18 and age <65:
 elif age >= 65:
     cost = 0   
 else:
-    cost= 0
+    cost= 2000
+    
 print("bloque if elif y esle")
 print(f"El costo del boleto es:{cost}")    
