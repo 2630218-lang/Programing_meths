@@ -9,6 +9,7 @@ print(type(age))
 age = int(age)
 
 print(type(age))
+
 """   
 
 if age >= 18:
@@ -36,10 +37,10 @@ elif age >4 and age <18:
     cost= 200
 elif age>=18 and age <65:
     cost= 500
-elif age >= 65:
+elif age >= 65 and age <=120:
     cost = 0   
 else:
     cost= 2000
-    
+
 print("bloque if elif y esle")
-print(f"El costo del boleto es:{cost}")    
+print(f"El costo del boleto es:{cost}")
